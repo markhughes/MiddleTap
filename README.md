@@ -1,17 +1,12 @@
 <div align="center">
   <h1>
-    MiddleClick <img align="center" height="80" src="MiddleClick/Images.xcassets/AppIcon.appiconset/mouse128x128.png">
+    MiddleTap <img align="center" height="80" src="MiddleTap/Images.xcassets/AppIcon.appiconset/mouse128x128.png">
   </h1>
   <p>
     <b>Emulate a scroll wheel click with three finger Click or Tap on MacBook trackpad and Magic Mouse</b>
   </p>
   <p>
     with <b>macOS</b> Catalina<a href="//www.apple.com/macos/catalina-preview/"><sup>10.15</sup></a> support!
-  </p>
-  <br>
-  <p><b>!_ Discontinued _!</b></p>
-  <p>
-    I recommend you all, guys, to use <a href="//multitouch.app">Multitouch.app</a> instead
   </p>
   <br>
 </div>
@@ -27,41 +22,31 @@
 
 <p align="right">
   
-  `System-wide` · close tabs by middleclicking on them
+  `System-wide` · close tabs by middleclicking/middletapping on them
 </p>
 
 <p align="right">
   
-  `In Safari` · middleclicking on a link opens it in background
+  `In Safari` · middleclicking/middletap on a link opens it in background
 </p>
 
 <br>
 
-<a href="https://github.com/DaFuqtor/MiddleClick-Catalina/releases">
-<img align="right" src="https://img.shields.io/github/downloads/dafuqtor/middleclick-catalina/total" title="GitHub All Releases">
-</a>
-
 ## Install
-
-### Via :beer: [Homebrew Cask](//brew.sh) (Recommended)
-
-```powershell
-brew cask install middleclick
-```
 
 ### Direct Download
 
 <details>
   <summary>
-    <a href="//github.com/DaFuqtor/MiddleClick/releases/latest/download/MiddleClick.zip">
+    <a href="//github.com/markhughes/MiddleTap/releases/latest/download/MiddleTap.zip">
       Latest Release
     </a>&nbsp·&nbsp
-    <a href="//github.com/DaFuqtor/MiddleClick/releases/latest">
-      <img align="center" alt="GitHub release" src="https://img.shields.io/github/release/dafuqtor/middleclick?label=%20&color=gray">
+    <a href="//github.com/markhughes/MiddleTap/releases/latest">
+      <img align="center" alt="GitHub release" src="https://img.shields.io/github/release/markhughes/MiddleTap?label=%20&color=gray">
     </a>
   </summary>
 
-  > Additionally, you may also view <a href="//github.com/DaFuqtor/MiddleClick/releases">Earlier Releases</a>
+  > Additionally, you may also view <a href="//github.com/markhughes/MiddleTap/releases">Earlier Releases</a>
 
 </details>
 
@@ -72,7 +57,7 @@ brew cask install middleclick
 1. Holding `⌘`, drag it away from the status bar until you see a :heavy_multiplication_x: (cross icon)
 2. Let it go
 
-> To recover the item, just open MiddleClick when it's already running
+> To recover the item, just open MiddleTap when it's already running
 
 ### Number of Fingers
 - Want to use 4, 5 or 2 fingers for middleclicking? No trouble. Even 10 is possible.
@@ -88,7 +73,7 @@ defaults write com.rouge41.middleClick fingers <int>
 
 <details>
   
-<summary>Just add MiddleClick to your "Login Items". <p align="right">(it's handy to be done using command line)</p></summary>
+<summary>Just add MiddleTap to your "Login Items". <p align="right">(it's handy to be done using command line)</p></summary>
   
 ```powershell
 osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/MiddleClick.app", hidden:true}'
@@ -122,8 +107,9 @@ osascript -e 'tell application "System Events" to make login item at end with pr
     
   This project was made by [Clément Beffa](//clement.beffa.org/),
 
-  Extended by [LoPablo](//github.com/LoPablo)
+  Extended by [LoPablo](//github.com/LoPablo) and [DaFuqtor](//github.com/DaFuqtor)
 
-  and [DaFuqtor](//github.com/DaFuqtor) (it's me)
+
+  and [Mark Hughes](//github.com/markhughes)
   </blockquote>
 </details>
